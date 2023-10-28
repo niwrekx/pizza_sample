@@ -46,7 +46,7 @@ const data = [
         <div className=" lg:px-20 xl:px-40 flex items-center justify-center flex-col gap-8 text-white p-4 w-full h-1/2 lg:w-1/2 lg:h-full xl:h-full">
             <h1 className="font-bold text-4xl text-center leading-tight xl:text-6xl">{data[currentSlide].title}</h1>
             <h3 className="text-sm text-center">{data[currentSlide].sub}</h3>
-            <button className="bg-black font-bold py-4 px-10 rounded-xl text-2xl flex justify-center items-center gap-2">ORDER NOW <FaPizzaSlice /></button>
+            <button className="bg-black font-bold py-4 px-10 rounded-xl text-2xl flex justify-center items-center gap-2 hover:bg-orange-500 transition-all duration-500">ORDER NOW <FaPizzaSlice /></button>
         </div>
         {/* img */}
         <div className="relative w-full flex-1">

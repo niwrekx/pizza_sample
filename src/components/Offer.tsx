@@ -12,7 +12,7 @@ const Offer = () => {
         <h1 className="text-white text-5xl font-bold xl:text-6xl">Delicous Burger & French Fry</h1>
         <p className="text-white p-6 xl:text-xl">Ut enim ad minima veniam, quis nostrum exercitationem.Sed ut perspiciatis unde omnis iste natus error sit</p>
         <CountDown />
-        <button className="bg-red-800 text-white font-bold py-4 px-10 rounded-xl text-2xl flex justify-center items-center gap-2">ORDER NOW <FaPizzaSlice /></button>
+        <button className="bg-red-800 text-white font-bold py-4 px-10 rounded-xl text-2xl flex justify-center items-center gap-2 hover:bg-orange-500 transition-all duration-500">ORDER NOW <FaPizzaSlice /></button>
       </div>
       {/* img container */}
       <div className="relative flex-1 w-full md:h-full">

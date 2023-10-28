@@ -5,12 +5,12 @@ import Image from "next/image";
 const Footer = () => {
     const year = new Date().getFullYear()
     return (
-      <div className="p-4 h-12 md:h-24 lg:px-20 xl:px-40 text-red-800 flex items-center justify-between">
-        <Link href ="/">
+      <div className="bg-black p-4 h-12 md:h-24 lg:px-20 xl:px-40 text-white flex items-center justify-center ">
+        {/* <Link href ="/">
           <Image src ="/logo.png" alt="logo" width={40} height={40} className="cursor-pointer" />
-        </Link> 
+        </Link>  */}
       
-        <p>{`Copyright © ${year} NIWREKX. All Rights Reserved. `}</p>
+        <p className="text-center text-sm">{`Copyright © ${year} NIWREKX. All Rights Reserved. `}</p>
       
       </div>
 
